@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://dek4my6b3dcax"]
+
+[ext_resource type="FontFile" uid="uid://bm46pdah4agi8" path="res://OldStandardTT-Regular.ttf" id="1_tejqg"]
+
+[resource]
+base_font = ExtResource("1_tejqg")
+variation_face_index = 16

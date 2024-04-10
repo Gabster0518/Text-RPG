@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://be6iuhewsfs6l"]
+
+[ext_resource type="FontVariation" uid="uid://cq0pcd2eo2ae5" path="res://OldStandardTT_Italic.tres" id="1_di27b"]
+[ext_resource type="Script" path="res://input_response.gd" id="1_vqv15"]
+[ext_resource type="FontFile" uid="uid://bm46pdah4agi8" path="res://OldStandardTT-Regular.ttf" id="2_yqww2"]
+
+[node name="InputResponse" type="VBoxContainer"]
+script = ExtResource("1_vqv15")
+
+[node name="InputHistory" type="Label" parent="."]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.407843, 0.407843, 0.407843, 1)
+theme_override_fonts/font = ExtResource("1_di27b")
+theme_override_font_sizes/font_size = 16
+text = " > This is what the user typed"
+
+[node name="Response" type="Label" parent="."]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.105882, 0.105882, 0.105882, 1)
+theme_override_fonts/font = ExtResource("2_yqww2")
+theme_override_font_sizes/font_size = 24
+text = "This is what the game responsed"
